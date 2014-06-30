@@ -1,21 +1,27 @@
 {
-    "name": "lucasmichot/eloquentuuid",
-    "description": "",
-    "authors": [
-        {
-            "name": "Lucas Michot",
-            "email": "lucas@semalead.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Lucasmichot\\Eloquentuuid\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "license": "MIT"
+	"name": "lucasmichot/eloquentuuid",
+	"description": "Provides a unique Base62-encoded UUID representing a given state of a model instance",
+	"keywords": [
+		"Laravel",
+		"Eloquent",
+		"UUID",
+		"versioning"
+	],
+	"authors": [
+		{
+			"name": "Lucas Michot",
+			"email": "lucas@semalead.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Lucasmichot\\Eloquentuuid\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"license": "MIT"
 }
