@@ -1,7 +1,7 @@
 EloquentUUID
 ===========
 
-Provide a unique Base62-encoded UUID representing the current state of a model instance.
+Provides a unique Base62-encoded `UUID` representing a given state of a model instance.
 
 This is particularly useful to keep track of model versions.
 
