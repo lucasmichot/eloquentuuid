@@ -1,0 +1,20 @@
+{
+    "name": "lucasmichot/eloquentuuid",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lucas Michot",
+            "email": "lucas@semalead.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lucasmichot\\Eloquentuuid\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
