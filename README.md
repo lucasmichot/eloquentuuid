@@ -19,7 +19,7 @@ Begin by installing this package through Composer. Edit your project's `composer
 
 ```json
 "require": {
-  "lucasmichot/eloquentuuid": "dev-master"
+  "lucasmichot/eloquentuuid": "O.*"
 }
 ```
 
@@ -32,7 +32,7 @@ $ composer update
 You can achieve these operations with this one-liner command :
 
 ```sh
-$ composer require "lucasmichot/eloquentuuid:dev-master"
+$ composer require "lucasmichot/eloquentuuid:0.*"
 ```
 
 ## Usage
