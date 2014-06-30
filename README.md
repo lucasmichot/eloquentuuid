@@ -51,10 +51,10 @@ class Post extends Eloquent
 Accessing the UUID :
 
 ```php
-$user = User::find(1);
-// update the attributes of the user
+$post = Post::find(1);
+// update the attributes of the post
 
-echo $user->uuid();
+echo $post->uuid();
 ```
 
 Each time the model is modified, the UUID is changed accordingly.
