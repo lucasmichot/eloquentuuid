@@ -44,7 +44,7 @@ class Post extends Eloquent
 {
     use UuidTrait;
 
-    /// your code comes here
+    // the code of your model comes here
 }
 ```
 
