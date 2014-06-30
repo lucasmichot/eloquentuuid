@@ -6,7 +6,8 @@ Provide a unique Base62-encoded UUID representing the current state of a model i
 This is particularly useful to keep track of model versions.
 
 **Why Base62 ?**
-COmpare to `MD5`, a Base62 hash is shorter and the alphabet used makes it cleaner to process, when used in a shorten URL for instance, or when stored in a database.
+
+Compared to `MD5`, a Base62 hash is shorter and the alphabet used makes it cleaner to process, when used in a shorten URL for instance, or when stored in a database.
 
 Requirements:
 * PHP >= 5.4
@@ -54,7 +55,6 @@ $user = User::find(1);
 // update the attributes of the user
 
 echo $user->uuid();
-
 ```
 
 Each time the model is modified, the UUID is changed accordingly.
