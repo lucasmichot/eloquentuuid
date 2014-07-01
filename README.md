@@ -19,7 +19,7 @@ Begin by installing this package through Composer. Edit your project's `composer
 
 ```json
 "require": {
-  "lucasmichot/eloquentuuid": "O.*"
+  "lucasmichot/eloquentuuid": "0.*"
 }
 ```
 
